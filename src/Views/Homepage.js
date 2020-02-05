@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Components/Header';
+import './Homepage.css';
 
 class Homepage extends Component {
     render() {
@@ -12,8 +13,9 @@ class Homepage extends Component {
                     </div>
                     <div className="billing-text">
                         <h3>
-                            Real-time alerts <span role="img" aria-label="time-emoji"> ⏰ </span>
-                            <p>Flexible billing and payments</p> 
+                            Real-time alerts <span role="img" aria-label="time-emoji"> ⏰ </span> <br />
+                            Next day settlement
+                            <p>Flexible billing and <br /> payments</p> 
                             <p>Building for all <span role="img" aria-label="time-emoji"> 🎯 </span> <br />
                             personal, business</p>
                         </h3>

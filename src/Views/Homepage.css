@@ -1,0 +1,20 @@
+.Billing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 15rem;
+    background-color: #F2F7F2;
+}
+
+.billing-image {
+    margin-right: 12rem;
+}
+
+.billing-image img {
+    width: 20rem;
+}
+
+.billing-text {
+    margin-left: 12rem;
+    color: #3722B5;
+}
