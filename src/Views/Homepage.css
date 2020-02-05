@@ -17,4 +17,54 @@
 .billing-text {
     margin-left: 12rem;
     color: #3722B5;
+    font-size: 3rem;
+}
+
+@supports (-webkit-text-stroke: 1px #3722B5) {
+    .stroke-text {
+        color: #3722B5;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #3722B5;
+    }
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .Billing {
+        padding: 6rem 8rem;
+    }
+
+    .billing-text {
+        margin-left: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .billing-image {
+        margin-right: 4rem;
+    }
+
+    .billing-image img {
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Billing {
+        flex-direction: column;
+        padding: 6rem 5rem;
+    }
+
+    .billing-image {
+        margin: 0 0 1.5rem 0;
+    }
+
+    .billing-text {
+        margin-left: 0;
+    }
+
+    .Nav-items {
+        display: none;
+    }
 }

@@ -13,11 +13,14 @@ class Homepage extends Component {
                     </div>
                     <div className="billing-text">
                         <h3>
-                            Real-time alerts <span role="img" aria-label="time-emoji"> ⏰ </span> <br />
-                            Next day settlement
+                            <span className="stroke-text">
+                                Real-time alerts
+                                <span role="img" aria-label="time-emoji"> ⏰ </span> <br />
+                                Next day settlement
+                            </span>
                             <p>Flexible billing and <br /> payments</p> 
-                            <p>Building for all <span role="img" aria-label="time-emoji"> 🎯 </span> <br />
-                            personal, business</p>
+                            <p> <span className="stroke-text"> Banking for all <span role="img" aria-label="time-emoji"> 🎯 </span> <br />
+                            personal, business </span></p>
                         </h3>
                     </div>
                 </section>
