@@ -1,4 +1,4 @@
-.Hero {
+.Hero h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,8 @@
     line-height: 1;
     text-align: center;
     margin: 10rem 0 0 0;
-    font-size: 4rem;
+    padding: 0 0 1rem 0;
+    font-size: 8rem;
     background: linear-gradient(to right, #3722B5, #0053FF);
     background: -webkit-linear-gradient(to right, #3722B5, #0053FF);
     background-clip: text;
@@ -15,6 +16,12 @@
 }
 
 .Hero h1 {
-    font-weight: 400;
+    font-weight: 600;
 
+}
+
+@media screen and (max-width: 652px) {
+    .Hero h1 {
+        font-size: 4.6rem;
+    }
 }

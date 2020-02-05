@@ -1,10 +1,19 @@
 import React from 'react';
-import './App.css';
+import { Route, Switch } from 'react-router-dom';
 import Header from './Header';
+import Benefits from './Views/Benefits';
+import Security from './Views/Security';
+import './App.css';
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Switch>  
+        <Route exact path="/" component={Header} />
+        <Route exact path="/benefits" component={Benefits} />
+        <Route exact path="/security" component={Security} />
+      </Switch>
+    </div>
   );
 }
 

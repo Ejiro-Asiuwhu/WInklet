@@ -4,11 +4,13 @@
     padding: 4rem 3rem;
 }
 
-.logo h1 {
-    font-family: 'Raleway',
-        sans-serif;
+.logo a {
+    font-family: 'Montserrat',
+    sans-serif;
     font-size: 2rem;
     font-weight: 800;
+    text-decoration: none;
+    color: inherit;
 }
 
 .Nav-items {
@@ -25,6 +27,5 @@
     font-size: 1.4rem;
     text-decoration: none;
     color: #3722B5;
-    font-family: 'Montserrat',
-    sans-serif;
+    font-family: 'Montserrat',sans-serif;
 }
