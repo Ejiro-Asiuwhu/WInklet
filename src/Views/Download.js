@@ -1,10 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Nav from '../Nav'
 
 class Download extends Component {
     render() {
         return (
             <div>
-                <h1>Dowload the app</h1>
+                <Nav />
+                <h1>Download the app</h1>
             </div>
         )
     }

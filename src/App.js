@@ -13,7 +13,7 @@ function App() {
         <Route exact path="/" component={Header} />
         <Route exact path="/benefits" component={Benefits} />
         <Route exact path="/security" component={Security} />
-        <Route exact path="/dowload" component={Download} />
+        <Route exact path="/download" component={Download} />
       </Switch>
     </div>
   );

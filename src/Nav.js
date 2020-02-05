@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
 import './Nav.css';
+import { Link } from 'react-router-dom';
 
 class Nav extends Component {
     render() {
         return (
             <nav className="Nav-container">
                 <div className="logo">
-                    <a href="/">Winklet</a>
+                    <Link to="/">Winklet</Link>
                 </div>
                 <ul className="Nav-items">
-                    <a href="/benefits">
+                    <Link to="/benefits">
                         <li>Benefits</li>
-                    </a>
-                    <a href="/security">
+                    </Link>
+                    <Link to="/security">
                         <li>Security</li>
-                    </a>
-                    <a href="/download">
+                    </Link>
+                    <Link to="/download">
                         <li>Download</li>
-                    </a>
+                    </Link>
                 </ul>
             </nav>
         )
