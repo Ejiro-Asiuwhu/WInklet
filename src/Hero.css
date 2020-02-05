@@ -1,0 +1,20 @@
+.Hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    text-align: center;
+    margin: 10rem 0 0 0;
+    font-size: 4rem;
+    background: linear-gradient(to right, #3722B5, #0053FF);
+    background: -webkit-linear-gradient(to right, #3722B5, #0053FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Hero h1 {
+    font-weight: 400;
+
+}
