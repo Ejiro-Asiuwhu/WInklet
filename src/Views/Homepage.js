@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Components/Header';
 import './Homepage.css';
-
+// import '../Assets/img/mobile-app.png' 
 class Homepage extends Component {
     render() {
         return (
@@ -9,7 +9,7 @@ class Homepage extends Component {
                 <Header />
                 <section className="Billing">
                     <div className="billing-image">
-                        <img src={require('../Assets/img/mobile-app.jpg')} alt="" />
+                        <img src={require('../Assets/img/mobile-app.png')} alt="" />
                     </div>
                     <div className="billing-text">
                         <h3>
