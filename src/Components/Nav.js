@@ -7,7 +7,7 @@ class Nav extends Component {
         return (
             <nav className="Nav-container">
                 <div className="logo">
-                    <NavLink exact activeClassName="nav-link-active" to="/">Winklet</NavLink>
+                    <NavLink exact to="/">Winklet</NavLink>
                 </div>
                 <ul className="Nav-items">
                     <NavLink exact activeClassName="nav-link-active" to="/benefits">
