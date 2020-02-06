@@ -29,3 +29,8 @@
     color: #3722B5;
     font-family: 'Montserrat',sans-serif;
 }
+
+.nav-link-active {
+    color: #0053FF !important;
+    border-bottom: 1px solid #0053FF;
+}

@@ -7,16 +7,16 @@ class Nav extends Component {
         return (
             <nav className="Nav-container">
                 <div className="logo">
-                    <NavLink to="/">Winklet</NavLink>
+                    <NavLink exact activeClassName="nav-link-active" to="/">Winklet</NavLink>
                 </div>
                 <ul className="Nav-items">
-                    <NavLink to="/benefits">
+                    <NavLink exact activeClassName="nav-link-active" to="/benefits">
                         <li>Benefits</li>
                     </NavLink>
-                    <NavLink to="/security">
+                    <NavLink exact activeClassName="nav-link-active" to="/security">
                         <li>Security</li>
                     </NavLink>
-                    <NavLink to="/download">
+                    <NavLink exact activeClassName="nav-link-active" to="/download">
                         <li>Download</li>
                     </NavLink>
                 </ul>
