@@ -64,7 +64,7 @@
     border-radius: 1.4rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all ease-in-out .4s;
+    transition: all ease-in .4s;
 }
 .payment-text button:hover {
     background-color: #0053FF;
@@ -81,7 +81,7 @@
     color: #3722B5;
     text-align: center;
     font-family: Raleway, sans-serif;
-    padding: 13rem 2rem;
+    padding: 11.8rem 2rem;
 }
 
 .jombotron h3 {

@@ -1,12 +1,17 @@
-.Hero h1 {
+.Hero {
+    height: 80vh;
+    background-image: url('../Assets/img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Hero h1 {
     font-family: 'Montserrat', sans-serif;
     line-height: 1;
     text-align: center;
-    margin: 10rem 0 0 0;
-    padding: 0 0 1rem 0;
     font-size: 8rem;
     background: linear-gradient(to right, #3722B5, #0053FF);
     background: -webkit-linear-gradient(to right, #3722B5, #0053FF);
@@ -23,5 +28,11 @@
 @media screen and (max-width: 652px) {
     .Hero h1 {
         font-size: 4.6rem;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .Hero {
+        height: 60vh;
     }
 }
