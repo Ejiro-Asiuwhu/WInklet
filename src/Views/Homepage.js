@@ -38,6 +38,11 @@ class Homepage extends Component {
                         <button type="button">Download</button>
                     </div>
                 </section>
+                <section className="jombotron">
+                    <h3> It's your money. <br /> 
+                        Stop Paying fees.
+                    </h3>
+                </section>
             </div>
         )
     }
