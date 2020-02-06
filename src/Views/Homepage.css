@@ -32,13 +32,13 @@
 
 .Payment {
     display: flex;
-    padding: 12rem;
     align-self: center;
     justify-content: center;
+    padding: 12rem;
+    color: #3722B5;
 }
 
 .payment-image img {
-    max-width: 100%;
     width: 60rem;
 }
 
@@ -49,6 +49,14 @@
 .payment-text {
     align-self: flex-end;
     margin-top: 20rem;
+}
+
+.payment-text h3 {
+    font-weight: 400;
+}
+
+.bold-text {
+    font-weight: 600;
 }
 
 /* Media Queries */
