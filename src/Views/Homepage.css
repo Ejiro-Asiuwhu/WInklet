@@ -30,6 +30,27 @@
 }
 
 
+.Payment {
+    display: flex;
+    padding: 12rem;
+    align-self: center;
+    justify-content: center;
+}
+
+.payment-image img {
+    max-width: 100%;
+    width: 60rem;
+}
+
+.payment-image {
+    align-self: flex-start;
+}
+
+.payment-text {
+    align-self: flex-end;
+    margin-top: 20rem;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
     .Billing {

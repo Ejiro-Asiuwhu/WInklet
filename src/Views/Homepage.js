@@ -24,6 +24,20 @@ class Homepage extends Component {
                         </h3>
                     </div>
                 </section>
+                <section className="Payment">
+                    <div className="payment-image">
+                        <img src={require('../Assets/img/payment-image.jpg')} alt="" />
+                    </div>
+                    <div className="payment-text">
+                        <h3>
+                            <span className="bold-text"> 
+                               Get Paid Early <br />
+                            </span>
+                            Your paycheck will be <br /> automatically deposited <br /> up to two days early
+                        </h3>
+                        <button type="button">Download</button>
+                    </div>
+                </section>
             </div>
         )
     }
