@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Nav from './Nav';
-import Hero from './Hero'
+import Hero from './Hero';
+import './Header.css';
 
 class Header extends Component {
     render() {
-        const style = {
-            height: '100vh',
-        }
+        
         return (
-            <div style={style} className="Header">
+            <div className="Header">
                <Nav /> 
                <Hero /> 
             </div>
