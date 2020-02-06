@@ -78,14 +78,14 @@
 }
 
 .jombotron h3 {
-    font-size: 5rem;
+    font-size: 8rem;
     font-weight: 600;
     line-height: 1.2;
     padding: 5rem;
 }
 
 .jombotron span[role="img"] {
-    margin-right: 20rem;
+    margin-right: 32rem;
 }
 
 .emoji-overide {
@@ -141,6 +141,11 @@
         margin: 4rem 0 0 0;
         font-size: larger;
     }
+
+    .jombotron span[role="img"] {
+        margin-right: 18rem;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -176,6 +181,26 @@
 
     .payment-text button {
         font-size: 1.2rem;
+    }
+
+    .jombotron {
+        padding: 8rem 2rem;
+    }
+
+    .jombotron h3 {
+        font-size: 4.2rem;
+        padding: 2rem;
+    }
+
+    .jombotron span[role="img"] {
+        margin-right: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .payment-image img {
+        width: 30rem;
     }
 }
 

@@ -41,13 +41,13 @@ class Homepage extends Component {
                 <section className="jombotron">
                     <span role="img" aria-label="emoji">💵</span>
                     <span role="img" aria-label="emoji">💰</span>
-                    <span role="img" aria-label="emoji" class="emoji-overide">💲</span>
+                    <span role="img" aria-label="emoji" className="emoji-overide">💲</span>
                     <h3>It's Your Money. <br /> 
                         Stop paying fees. 
                     </h3>
                     <span role="img" aria-label="emoji">🤑</span>
                     <span role="img" aria-label="emoji">👌</span>
-                    <span role="img" aria-label="emoji" class="emoji-overide">🛍</span>
+                    <span role="img" aria-label="emoji" className="emoji-overide">🛍</span>
                 </section>
             </div>
         )
