@@ -34,7 +34,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    padding: 12rem;
+    padding: 12rem 8rem;
     color: #3722B5;
 }
 
@@ -43,12 +43,12 @@
 }
 
 .payment-image {
-    align-self: flex-start;
+    margin-right: 4rem;
 }
 
 .payment-text {
     align-self: flex-end;
-    margin-top: 20rem;
+    margin: 20rem 0 0 4rem;
 }
 
 .payment-text h3 {
@@ -69,7 +69,22 @@
     font-weight: 600;
 }
 
+
+
+
+
+
 /* Media Queries */
+@media screen and (max-width: 1024px) {
+    .Payment {
+        padding: 10rem 6rem;
+    }
+
+    .payment-image img {
+        width: 45rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .Billing {
         padding: 6rem 8rem;
@@ -87,12 +102,31 @@
     .billing-image img {
         width: 17rem;
     }
+
+    .Payment {
+        flex-direction: column;
+    }
+
+    .payment-image {
+        margin-right: 0;
+        align-self: center;
+    }
+
+    .payment-image img {
+        width: 52rem;
+    }
+
+    .payment-text {
+        align-self: center;
+        margin: 4rem 0 0 0;
+        font-size: larger;
+    }
 }
 
 @media screen and (max-width: 425px) {
     .Billing {
         flex-direction: column;
-        padding: 6rem 5rem;
+        padding: 4rem 3rem;
     }
 
     .billing-image {
@@ -105,5 +139,28 @@
 
     .Nav-items {
         display: none;
+    }
+
+    .Payment {
+        padding: 6rem 3rem;
+    }
+
+    .payment-image img {
+        width: 34rem;
+    }
+
+    .payment-text {
+        font-size: large;
+        margin-top: 3rem;
+    }
+
+    .payment-text button {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .payment-image img {
+        width: 30rem;
     }
 }
