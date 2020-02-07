@@ -10,10 +10,10 @@ function App() {
   return (
     <div>
       <Switch>  
-        <Route exact path="/" component={Homepage} />
-        <Route exact path="/benefits" component={Benefits} />
-        <Route exact path="/security" component={Security} />
-        <Route exact path="/download" component={Download} />
+        <Route exact path="/" render={() =><Homepage />} />
+        <Route exact path="/benefits" render={() =><Benefits />} />
+        <Route exact path="/security" render={() =><Security />} />
+        <Route exact path="/download" render={() =><Download />} />
       </Switch>
     </div>
   );

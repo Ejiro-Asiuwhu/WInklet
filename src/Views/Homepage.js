@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Components/Header';
 import './Homepage.css';
-// import '../Assets/img/mobile-app.png' 
 class Homepage extends Component {
     render() {
         return (
