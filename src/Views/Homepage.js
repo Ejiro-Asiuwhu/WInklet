@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Components/Header';
+import Footer from '../Components/Footer'
 import './Homepage.css';
 class Homepage extends Component {
     render() {
@@ -57,6 +58,7 @@ class Homepage extends Component {
                     <span role="img" aria-label="emoji">💳</span>
                     <span role="img" aria-label="emoji" className="emoji-overide">🏧</span>
                 </section>
+                <Footer />
             </div>
         )
     }
