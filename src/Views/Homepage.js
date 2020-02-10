@@ -44,9 +44,18 @@ class Homepage extends Component {
                     <h3>It's Your Money. <br /> 
                         Stop paying fees. 
                     </h3>
-                    <span role="img" aria-label="emoji">🤑</span>
+                    <span role="img" aria-label="emoji">key</span>
                     <span role="img" aria-label="emoji">👌</span>
                     <span role="img" aria-label="emoji" className="emoji-overide">🛍</span>
+                </section>
+                 <section className="security">
+                    <span role="img" aria-label="emoji">🔑</span>
+                    <span role="img" aria-label="emoji">🔐</span>
+                    <span role="img" aria-label="emoji" className="emoji-overide">🔫</span>
+                    <h3>security</h3>
+                    <span role="img" aria-label="emoji">🗝</span>
+                    <span role="img" aria-label="emoji">💳</span>
+                    <span role="img" aria-label="emoji" className="emoji-overide">🏧</span>
                 </section>
             </div>
         )
