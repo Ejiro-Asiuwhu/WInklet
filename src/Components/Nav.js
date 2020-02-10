@@ -12,9 +12,16 @@ class Nav extends Component {
           const navLinks = document.querySelector('.nav-links');
           const links = document.querySelector('.nav-links a');
           navLinks.classList.toggle('open');
-              links.classList.toggle('fade')
-          
-        }
+          links.classList.toggle('fade');
+
+        //   if (toggler) {
+        //       const lines = document.querySelectorAll('.line');
+        //       lines.classList.add('.line-overide')
+        //   }
+        //   const lines = document.querySelectorAll('.hamburger .line')
+        //   navToggler ? lines.classList.add('.line-overide') : navLinks.classList.add('.line');
+    }
+    
 
     
     render() {
@@ -42,6 +49,6 @@ class Nav extends Component {
             </nav>
         )
     }
-}
+};
 
 export default Nav
