@@ -4,6 +4,7 @@ import Homepage from './Views/Homepage';
 import Benefits from './Views/Benefits';
 import Security from './Views/Security';
 import Download from './Views/Download';
+import NotFound404 from './Views/NotFound404';
 import './App.css';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
         <Route exact path="/" render={() =><Homepage />} />
         <Route exact path="/benefits" render={() =><Benefits />} />
         <Route exact path="/security" render={() =><Security />} />
-        <Route exact path="/download" render={() =><Download />} />
+        <Route exact path="/download" render={() => <Download />} />
+        <Route  render={() => <NotFound404 />} />
       </Switch>
     </div>
   );
