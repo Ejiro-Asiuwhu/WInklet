@@ -64,13 +64,13 @@
     border-radius: 1.4rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all ease-in .4s;
+    transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) .3s;
 }
 
 .payment-text button:hover {
     background-color: #0053FF;
     color: #fff;
-    transform: scale(1.1);
+    transform: translateY(-2rem);
 }
 
 .bold-text {
