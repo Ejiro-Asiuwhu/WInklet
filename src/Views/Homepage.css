@@ -1,240 +1,234 @@
 .Billing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12rem 10rem;
-    background-color: #F2F7F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12rem 10rem;
+  background-color: #f2f7f2;
 }
 
 .billing-image {
-    margin-right: 12rem;
+  margin-right: 12rem;
 }
 
 .billing-image img {
-    width: 20rem;
+  width: 20rem;
 }
 
 .billing-text {
-    margin-left: 12rem;
-    color: #3722B5;
-    font-size: 3rem;
+  margin-left: 12rem;
+  color: #3722b5;
+  font-size: 3rem;
 }
 
-@supports (-webkit-text-stroke: 1px #3722B5) {
-    .stroke-text {
-        color: #3722B5;
-        -webkit-text-fill-color: transparent;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: #3722B5;
-    }
+@supports (-webkit-text-stroke: 1px #3722b5) {
+  .stroke-text {
+    color: #3722b5;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3722b5;
+  }
 }
-
 
 .Payment {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    padding: 12rem 8rem;
-    color: #3722B5;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 12rem 8rem;
+  color: #3722b5;
 }
 
 .payment-image img {
-    width: 47rem;
+  width: 47rem;
 }
 
 .payment-image {
-    margin-right: 4rem;
+  margin-right: 4rem;
 }
 
 .payment-text {
-    align-self: flex-end;
-    margin: 20rem 0 0 4rem;
+  align-self: flex-end;
+  margin: 20rem 0 0 4rem;
 }
 
 .payment-text h3 {
-    font-weight: 400;
-    margin-bottom: 3.2rem;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
 }
 
 .payment-text button {
-    padding: 1.4rem 2.4rem;
-    color: #0053FF;
-    background-color: transparent;
-    border: 1px solid #0053FF;
-    border-radius: 1.4rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) .3s;
+  padding: 1.4rem 2.4rem;
+  color: #0053ff;
+  background-color: transparent;
+  border: 1px solid #0053ff;
+  border-radius: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.3s;
 }
 
 .payment-text button:hover {
-    background-color: #0053FF;
-    color: #fff;
-    transform: translateY(-2rem);
+  background-color: #0053ff;
+  color: #fff;
+  transform: translateY(-2rem);
 }
 
 .bold-text {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .jombotron {
-    background-color: #fdefe4;
-    color: #3722B5;
-    text-align: center;
-    font-family: Raleway, sans-serif;
-    padding: 11.8rem 2rem;
+  background-color: #fdefe4;
+  color: #3722b5;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  padding: 11.8rem 2rem;
 }
 
 .jombotron h3 {
-    font-size: 8rem;
-    font-weight: 600;
-    line-height: 1.2;
-    padding: 5rem;
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 5rem;
 }
 
-.jombotron span[role="img"],
-.security span[role="img"] {
-    margin-right: 32rem;
+.jombotron span[role='img'],
+.security span[role='img'] {
+  margin-right: 32rem;
 }
 
 .emoji-overide {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .security {
-    background-color: #fff;
-    color: #3722B5;
-    text-align: center;
-    font-family: Raleway, sans-serif;
-    padding: 11.8rem 2rem;
+  background-color: #fff;
+  color: #3722b5;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  padding: 11.8rem 2rem;
 }
 
 .security h3 {
-    font-size: 10rem;
-    background: linear-gradient(to right, #3722B5, #0053FF, red);
-    background: -webkit-linear-gradient(to right, #3722B5, #0053FF, red);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 10rem;
+  background: linear-gradient(to right, #3722b5, #0053ff, red);
+  background: -webkit-linear-gradient(to right, #3722b5, #0053ff, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
-
-
 
 /* Media Queries */
 @media screen and (max-width: 1024px) {
-    .Payment {
-        padding: 10rem 6rem;
-    }
+  .Payment {
+    padding: 10rem 6rem;
+  }
 
-    .payment-image img {
-        width: 45rem;
-    }
+  .payment-image img {
+    width: 45rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .Billing {
-        padding: 6rem 8rem;
-    }
+  .Billing {
+    padding: 6rem 8rem;
+  }
 
-    .billing-text {
-        margin-left: 4rem;
-        font-size: 2.2rem;
-    }
+  .billing-text {
+    margin-left: 4rem;
+    font-size: 2.2rem;
+  }
 
-    .billing-image {
-        margin-right: 4rem;
-    }
+  .billing-image {
+    margin-right: 4rem;
+  }
 
-    .billing-image img {
-        width: 17rem;
-    }
+  .billing-image img {
+    width: 17rem;
+  }
 
-    .Payment {
-        flex-direction: column;
-    }
+  .Payment {
+    flex-direction: column;
+  }
 
-    .payment-image {
-        margin-right: 0;
-        align-self: center;
-    }
+  .payment-image {
+    margin-right: 0;
+    align-self: center;
+  }
 
-    .payment-image img {
-        width: 52rem;
-    }
+  .payment-image img {
+    width: 52rem;
+  }
 
-    .payment-text {
-        align-self: center;
-        margin: 4rem 0 0 0;
-        font-size: larger;
-    }
+  .payment-text {
+    align-self: center;
+    margin: 4rem 0 0 0;
+    font-size: larger;
+  }
 
-    .jombotron span[role="img"],
-    .security span[role="img"] {
-        margin-right: 18rem;
-    }
-
+  .jombotron span[role='img'],
+  .security span[role='img'] {
+    margin-right: 18rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .Billing {
-        flex-direction: column;
-        padding: 4rem 3rem;
-    }
+  .Billing {
+    flex-direction: column;
+    padding: 4rem 3rem;
+  }
 
-    .billing-image {
-        margin: 0 0 1.5rem 0;
-    }
+  .billing-image {
+    margin: 0 0 1.5rem 0;
+  }
 
-    .billing-text {
-        margin-left: 0;
-    }
+  .billing-text {
+    margin-left: 0;
+  }
 
-    .Payment {
-        padding: 6rem 3rem;
-    }
+  .Payment {
+    padding: 6rem 3rem;
+  }
 
-    .payment-image img {
-        width: 34rem;
-    }
+  .payment-image img {
+    width: 34rem;
+  }
 
-    .payment-text {
-        font-size: large;
-        margin-top: 3rem;
-    }
+  .payment-text {
+    font-size: large;
+    margin-top: 3rem;
+  }
 
-    .payment-text button {
-        font-size: 1.2rem;
-    }
+  .payment-text button {
+    font-size: 1.2rem;
+  }
 
-    .jombotron {
-        padding: 8rem 2rem;
-    }
+  .jombotron {
+    padding: 8rem 2rem;
+  }
 
-    .jombotron h3 {
-        font-size: 4.2rem;
-        padding: 2rem;
-    }
+  .jombotron h3 {
+    font-size: 4.2rem;
+    padding: 2rem;
+  }
 
-    .jombotron span[role="img"],
-    .security span[role="img"] {
-        margin-right: 2rem;
-    }
+  .jombotron span[role='img'],
+  .security span[role='img'] {
+    margin-right: 2rem;
+  }
 
-    .security h3 {
-        font-size: 6rem;
-    }
+  .security h3 {
+    font-size: 6rem;
+  }
 }
 
-
 @media screen and (max-width: 375px) {
-    .payment-image img {
-        width: 30rem;
-    }
+  .payment-image img {
+    width: 30rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .payment-image img {
-        width: 30rem;
-    }
+  .payment-image img {
+    width: 30rem;
+  }
 }

@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import "./Nav.css";
-import { NavLink } from "react-router-dom";
+import React, { Component } from 'react';
+import './Nav.css';
+import { NavLink } from 'react-router-dom';
 
 class Nav extends Component {
   constructor(props) {
@@ -9,10 +9,10 @@ class Nav extends Component {
   }
 
   toggleNav() {
-    const navLinks = document.querySelector(".nav-links");
-    const links = document.querySelector(".nav-links a");
-    navLinks.classList.toggle("open");
-    links.classList.toggle("fade");
+    const navLinks = document.querySelector('.nav-links');
+    const links = document.querySelector('.nav-links a');
+    navLinks.classList.toggle('open');
+    links.classList.toggle('fade');
 
     //   if (toggler) {
     //       const lines = document.querySelectorAll('.line');
@@ -41,7 +41,14 @@ class Nav extends Component {
             <li>Download</li>
           </NavLink>
         </ul>
-        <div role="harmburger" onClick={this.toggleNav} className="hamburger">
+        <div
+          className="hamburger"
+          role="menu"
+          onKeyPress={this.toggleNav}
+          tabIndex="0"
+          aria-labelledby="menu"
+          onClick={this.toggleNav}
+        >
           <div className="line" />
           <div className="line" />
           <div className="line" />

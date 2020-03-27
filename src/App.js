@@ -7,14 +7,13 @@ import Download from './Views/Download';
 import NotFound404 from './Views/NotFound404';
 import './App.css';
 
-
 function App() {
   return (
     <div>
-      <Switch>  
-        <Route exact path="/" render={() =><Homepage />} />
-        <Route exact path="/benefits" render={() =><Benefits />} />
-        <Route exact path="/security" render={() =><Security />} />
+      <Switch>
+        <Route exact path="/" render={() => <Homepage />} />
+        <Route exact path="/benefits" render={() => <Benefits />} />
+        <Route exact path="/security" render={() => <Security />} />
         <Route exact path="/download" render={() => <Download />} />
         <Route path="*" render={() => <NotFound404 />} />
       </Switch>

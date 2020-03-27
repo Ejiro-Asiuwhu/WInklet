@@ -10,7 +10,7 @@
 }
 
 *::selection {
-  color: #0053FF;
+  color: rgb(46, 89, 175);
 }
 
 html {

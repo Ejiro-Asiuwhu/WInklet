@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
-import Nav from '../Components/Nav'
+import React, { Component } from 'react';
+import Nav from '../Components/Nav';
 
 class Security extends Component {
-    render() {
-        return (
-            <div>
-                <Nav />
-                <h1>Our app is secure</h1>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <Nav />
+        <h1>Our app is secure</h1>
+      </div>
+    );
+  }
 }
 
-export default Security
+export default Security;
