@@ -7,6 +7,7 @@ import Download from './Views/Download';
 import NotFound404 from './Views/NotFound404';
 import './App.css';
 
+
 function App() {
   return (
     <div>
@@ -15,7 +16,7 @@ function App() {
         <Route exact path="/benefits" render={() =><Benefits />} />
         <Route exact path="/security" render={() =><Security />} />
         <Route exact path="/download" render={() => <Download />} />
-        <Route  render={() => <NotFound404 />} />
+        <Route path="*" render={() => <NotFound404 />} />
       </Switch>
     </div>
   );
