@@ -3,12 +3,17 @@
   "parserOptions": {
     "sourceType": "module",
     "allowImportExportEverywhere": false,
-    "codeFrame": false
+    "codeFrame": false,
+        "ecmaVersion": 2018
+
   },
-  "extends": ["airbnb", "prettier"],
+  "extends": ["airbnb", "prettier", "eslint:recommended"],
   "env": {
     "browser": true,
-    "jest": true
+    "jest": true,
+       "commonjs": true,
+    "es6": true,
+    "node": true
   },
   "rules": {
     "max-len": ["error", { "code": 100 }],
